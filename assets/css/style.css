@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: sans-serif;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 15px;
+    width: 50%;
+}
+
+.iconSection{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.summary{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.timeSection{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.temperatureSection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 20px
+}
+
+#temperatureUnit{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+    align-items: center;
+}
+
+.misc{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+

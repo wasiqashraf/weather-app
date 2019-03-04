@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="iconSection">
+            <canvas class="icon" width="128" height="128"></canvas>
+        </div>
+        
+        <div class="summary">
+            <h5> ~ <span>Summary</span> ~ </h5>
+        </div>   
+        
+        <div class="timeSection">
+            <h6>Time Zone: <span id="timeZone"></span></h6>
+            <h6>Time: <span id="time"></span></h>
+        </div>
+        
+        <div class="temperatureSection">
+            <h1 id="temperature">0</h1>
+            <p id="temperatureUnit">F</p>
+        </div>
+     
+        <div class="misc">
+            <h6>Wind Speed: <span id="windSpeed"></span> mph</h6>
+            <h6>Pressure: <span id="atmospherePressure"></span> mb</h6>
+            <h6>Ozone: <span id="ozoneLevel"></span> DU</h6>
+        </div>
+    </div>
+    
+    <script src="assets/js/skycons.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
